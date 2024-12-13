@@ -63,8 +63,8 @@ main{
 }
 
 .hero{
-    max-width: 1120px;
-    height: 60vh;
+    max-width: 80%;
+    height: 20rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -219,25 +219,25 @@ footer{
 
 article {
     display: flex;
-    flex-direction: row-reverse; /* Inverte a ordem: texto à esquerda, imagem à direita */
+    flex-direction: row-reverse; 
     align-items: center;
     gap: 2rem;
     background-color: #2a1d1f;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem; /* Espaço entre os artigos */
+    margin-bottom: 2rem; 
 }
 
 article figure {
     flex: 1;
-    max-width: 250px; /* Largura máxima da imagem */
+    max-width: 100%; 
 }
 
 article figure img {
     width: 100%;
     border-radius: 0.5rem;
-    object-fit: cover; /* Ajusta a imagem sem distorcer */
+    object-fit: cover;
 }
 
 article .texto {
