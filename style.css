@@ -49,7 +49,11 @@ nav{
     color: #fff2e780;
 }
 
-.github img{
+.menu a:hover{
+    color: #ffffff;
+}
+
+.bandeira img{
    width: 90px;
 }
 
@@ -123,7 +127,11 @@ hr{
 
 .hero-imagens-container > figure > img{
     width: 100%;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.video iframe{
+    border-radius: 1.5rem;
 }
 
 
@@ -183,6 +191,7 @@ footer{
     text-align: left;
     font-weight: bold;
     border: 1px solid #a45a49; 
+    padding: 0.8rem;
 }
 
 .info-tabela td {
